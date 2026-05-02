@@ -175,4 +175,5 @@ O cenário logístico brasileiro foi modelado como um **Grafo Não Direcionado**
     cidades selecionadas pelo usuário e apresente o custo para transportar uma carga entre elas,
     considerando a malha ferroviária gerada pelo Algoritmo Genético. Os custos para transporte e
     transbordo são os mesmos descritos no item “d”
+    
 </details>
