@@ -1,5 +1,4 @@
-# Usa a imagem oficial do Java 17 (Se usar Java 21 no pom.xml, mude o 17 para 21)
-FROM eclipse-temurin:17-jdk
+FROM eclipse-temurin:21-jdk
 
 # Define a pasta de trabalho dentro do servidor
 WORKDIR /app
