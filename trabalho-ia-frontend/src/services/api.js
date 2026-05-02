@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:8080/api";
+const API_URL = import.meta.env.DEV ? "http://localhost:8080/api" : "/api";
 
 export async function calcularRotaRodoviaria(origem, destino) {
     const url = `${API_URL}/rota/rodoviaria?origem=${encodeURIComponent(origem)}&destino=${encodeURIComponent(destino)}`;
